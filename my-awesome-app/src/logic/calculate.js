@@ -9,7 +9,7 @@ import isNumber from "./isNumber";
  * Calculator data object contains:
  *   total:String      the running total
  *   next:String       the next number to be operated on with the total
- *   operation:String  +, -, etc.
+ *   operation:String  +, -, etc. yeah updated here
  */
 export default function calculate(obj, buttonName) {
   if (buttonName === "AC") {
